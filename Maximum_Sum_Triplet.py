@@ -11,6 +11,7 @@ def solve(input_list):
             else:
                 k = sorted_list[idx]
                 idx += 1
+
         if not m:
             if input_list.index(j) > input_list.index(sorted_list[idx]):
                 m = sorted_list[idx]
